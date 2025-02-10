@@ -1,7 +1,6 @@
-The Jupyter Notebook “Notebook_Soaring_NS” is a collection of Python3 scripts aimed at importing meteorological variables from ERA5 for the North Sea and visualizing/analyzing them in relation to thermal soaring in the IJmuiden (Luchterduinen) and Schiermonnikoog (Gemini).
+The Jupyter Notebook “Notebook_Soaring_NS” is a collection of Python3 scripts aimed at importing meteorological variables from ECMWF Reanalysis v5 (ERA5) for the Dutch North Sea and analyzing them in relation to bird thermal soaring. Two locations are considered (IJmuiden and Schiermonnikoog) were wind farms are present since we are interested in bird behavior around these structures. The study is limited to the years 2019 and 2020.
 
-ERA5 is the latest climate reanalysis produced by the European Center for Medium Range Weather forecast (ECMWF), providing hourly data on many atmospheric, land-surface and sea-state parameters together with estimates of uncertainty.
-ERA5 data are available in the Climate Data Store https://cds.climate.copernicus.eu/cdsapp#!/home on regular latitude-longitude grids at 0.25 deg x 0.25 deg resolution, with atmospheric parameters on 37 pressure levels.
+ERA5 is a climate reanalysis produced by the European Center for Medium Range Weather forecast (ECMWF), providing hourly data on many atmospheric, land-surface and sea-state parameters together with estimates of uncertainty. ERA5 data are available in the Climate Data Store https://cds.climate.copernicus.eu/cdsapp#!/home on regular latitude-longitude grids at 0.25 deg x 0.25 deg resolution, with atmospheric parameters on 37 pressure levels.
 
 In this notebook several variables from ERA5 are considered:
 - sea surface temperature (SST)
@@ -59,4 +58,4 @@ The ISHF used in the notebook is defined as the negative of this parameter to re
 Plots of time series of sensible heat flux estimates, for Ijmuiden and for Schiermonnikoog, and for July 2020, are in the Plot folder, along with other time series plots generated in the notebook. 
 The KNMI Weerkaarten folder within the Plots folder contains surface pressure charts downloaded from the KNMI website https://www.knmi.nl/nederland-nu/klimatologie/daggegevens/weerkaarten for the days 14-15-20-21-22/07/2020.
 
-Finally, a “Summary.docx” file has been uploaded to the Documentation folder. It describes the methodology for extraction of parameters from ERA5 reanalysis data and the notebook results. It also provides a general picture of the atmospheric conditions related to soaring over the North Sea.
+Finally, a Summary has been uploaded to the repository that describes the methodology used and presets my results. It also provides a general picture of the atmospheric conditions related to bird soaring over the North Sea.
